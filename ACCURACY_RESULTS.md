@@ -10,38 +10,38 @@ This document contains all accuracy values for each problem separately, showing 
 **Methodology:** 10-Fold Stratified Cross-Validation
 
 ### Algorithm 1: DRL-LB (Deep Reinforcement Learning Load Balancer)
-**Mean:** 19.5% | **Std Dev:** 3.56
+**Mean:** 19.5% | **Std Dev:** 3.6
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev |
 |------|---|---|---|---|---|---|---|---|---|----|------|---------|
-| Accuracy (%) | 16.0 | 19.0 | 15.0 | 22.0 | 22.0 | 17.0 | 23.0 | 26.0 | 18.0 | 17.0 | **19.5** | **3.56** |
+| Accuracy (%) | 16.0 | 19.0 | 15.0 | 22.0 | 22.0 | 17.0 | 23.0 | 26.0 | 18.0 | 17.0 | **19.5** | **3.6** |
 
 ### Algorithm 2: Round Robin
-**Mean:** 19.9% | **Std Dev:** 3.45
+**Mean:** 19.9% | **Std Dev:** 3.5
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev |
 |------|---|---|---|---|---|---|---|---|---|----|------|---------|
-| Accuracy (%) | 22.0 | 27.0 | 21.0 | 18.0 | 20.0 | 20.0 | 20.0 | 15.0 | 19.0 | 17.0 | **19.9** | **3.45** |
+| Accuracy (%) | 22.0 | 27.0 | 21.0 | 18.0 | 20.0 | 20.0 | 20.0 | 15.0 | 19.0 | 17.0 | **19.9** | **3.5** |
 
 ### Algorithm 3: Least Connection
-**Mean:** 20.2% | **Std Dev:** 1.06
+**Mean:** 20.2% | **Std Dev:** 1.1
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev |
 |------|---|---|---|---|---|---|---|---|---|----|------|---------|
-| Accuracy (%) | 21.0 | 19.0 | 20.0 | 22.0 | 18.0 | 20.0 | 21.0 | 21.0 | 19.0 | 21.0 | **20.2** | **1.06** |
+| Accuracy (%) | 21.0 | 19.0 | 20.0 | 22.0 | 18.0 | 20.0 | 21.0 | 21.0 | 19.0 | 21.0 | **20.2** | **1.1** |
 
 ### Algorithm 4: Static Heuristic ⭐ **BEST**
-**Mean:** 20.4% | **Std Dev:** 3.56
+**Mean:** 20.4% | **Std Dev:** 3.6
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev |
 |------|---|---|---|---|---|---|---|---|---|----|------|---------|
-| Accuracy (%) | 27.0 | 19.0 | 14.0 | 23.0 | 21.0 | 19.0 | 23.0 | 21.0 | 20.0 | 17.0 | **20.4** | **3.56** |
+| Accuracy (%) | 27.0 | 19.0 | 14.0 | 23.0 | 21.0 | 19.0 | 23.0 | 21.0 | 20.0 | 17.0 | **20.4** | **3.6** |
 
 **Summary for Problem 1:**
-- **Best Algorithm:** Static Heuristic (Mean: 20.4%, SD: 3.56)
-- **2nd Best:** Least Connection (Mean: 20.2%, SD: 1.06)
-- **3rd Best:** Round Robin (Mean: 19.9%, SD: 3.45)
-- **4th Best:** DRL-LB (Mean: 19.5%, SD: 3.56)
+- **Best Algorithm:** Static Heuristic (Mean: 20.4%, SD: 3.6)
+- **2nd Best:** Least Connection (Mean: 20.2%, SD: 1.1)
+- **3rd Best:** Round Robin (Mean: 19.9%, SD: 3.5)
+- **4th Best:** DRL-LB (Mean: 19.5%, SD: 3.6)
 - All algorithms have very similar performance (~20% accuracy)
 
 ---
@@ -174,7 +174,7 @@ This document contains all accuracy values for each problem separately, showing 
 ### Best Algorithms Per Problem
 | Problem | Best Algorithm | Accuracy | Std Dev | Improvement |
 |---------|---|---|---|---|
-| Problem 1 | Static Heuristic | **20.4%** | 3.56 | - |
+| Problem 1 | Static Heuristic | **20.4%** | 3.6 | - |
 | Problem 2 | BFL-LB | **95.8%** | 0.60 | +75.40% vs Centralized |
 | Problem 3 | GNN-LB | **95.8%** | 0.60 | +24.40% vs Topology-Agnostic |
 | Problem 4 | GNN-LB | **95.8%** | 0.60 | +27.20% vs Single-Objective |
