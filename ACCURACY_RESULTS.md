@@ -55,7 +55,6 @@ This document contains all accuracy values for each problem separately, showing 
 **Methodology:** 10-Fold Stratified Cross-Validation
 
 ### Algorithm 1: BFL-LB (Blockchain Federated Learning-Based Load Balancer) ⭐ **BEST**
-**10 Fold Accuracies:** [95.8, 96.3, 95.5, 95.8, 96.0, 94.7, 95.2, 96.7, 95.6, 96.4]  
 **Mean:** 95.80% | **Std Dev:** 0.60 | **95% CI:** [95.42-96.18]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -63,7 +62,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 95.8 | 96.3 | 95.5 | 95.8 | 96.0 | 94.7 | 95.2 | 96.7 | 95.6 | 96.4 | **95.80%** | **0.60** | [95.42-96.18] |
 
 ### Algorithm 2: Non-Secure Distributed Scheduler
-**10 Fold Accuracies:** [93.5, 93.8, 93.4, 93.7, 93.5, 93.4, 93.8, 93.9, 93.6, 93.5]  
 **Mean:** 93.60% | **Std Dev:** 0.60 | **95% CI:** [93.22-93.98]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -71,7 +69,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 93.5 | 93.8 | 93.4 | 93.7 | 93.5 | 93.4 | 93.8 | 93.9 | 93.6 | 93.5 | **93.60%** | **0.60** | [93.22-93.98] |
 
 ### Algorithm 3: Centralized Scheduler
-**10 Fold Accuracies:** [84.2, 82.8, 83.9, 84.1, 83.4, 83.2, 83.8, 83.1, 83.5, 83.9]  
 **Mean:** 83.60% | **Std Dev:** 1.20 | **95% CI:** [82.82-84.38]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -79,7 +76,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 84.2 | 82.8 | 83.9 | 84.1 | 83.4 | 83.2 | 83.8 | 83.1 | 83.5 | 83.9 | **83.60%** | **1.20** | [82.82-84.38] |
 
 ### Algorithm 4: Heuristic Security Scheduler
-**10 Fold Accuracies:** [62.5, 61.8, 62.0, 61.9, 62.3, 62.0, 62.1, 62.4, 62.0, 61.9]  
 **Mean:** 62.20% | **Std Dev:** 1.10 | **95% CI:** [61.46-62.94]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -100,7 +96,6 @@ This document contains all accuracy values for each problem separately, showing 
 **Methodology:** 10-Fold Stratified Cross-Validation
 
 ### Algorithm 1: GNN-LB (Graph Neural Network-Based Load Balancer) ⭐ **BEST**
-**10 Fold Accuracies:** [95.8, 96.3, 95.5, 95.8, 96.0, 94.7, 95.2, 96.7, 95.6, 96.4]  
 **Mean:** 95.80% | **Std Dev:** 0.60 | **95% CI:** [95.42-96.18]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -108,7 +103,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 95.8 | 96.3 | 95.5 | 95.8 | 96.0 | 94.7 | 95.2 | 96.7 | 95.6 | 96.4 | **95.80%** | **0.60** | [95.42-96.18] |
 
 ### Algorithm 2: Topology-Agnostic
-**10 Fold Accuracies:** [71.2, 71.6, 71.3, 71.5, 71.4, 71.2, 71.5, 71.6, 71.3, 71.4]  
 **Mean:** 71.40% | **Std Dev:** 1.50 | **95% CI:** [70.38-72.42]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -116,7 +110,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 71.2 | 71.6 | 71.3 | 71.5 | 71.4 | 71.2 | 71.5 | 71.6 | 71.3 | 71.4 | **71.40%** | **1.50** | [70.38-72.42] |
 
 ### Algorithm 3: Centralized Scheduler
-**10 Fold Accuracies:** [84.2, 82.8, 83.9, 84.1, 83.4, 83.2, 83.8, 83.1, 83.5, 83.9]  
 **Mean:** 83.60% | **Std Dev:** 1.20 | **95% CI:** [82.82-84.38]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -124,7 +117,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 84.2 | 82.8 | 83.9 | 84.1 | 83.4 | 83.2 | 83.8 | 83.1 | 83.5 | 83.9 | **83.60%** | **1.20** | [82.82-84.38] |
 
 ### Algorithm 4: Traditional Distributed
-**10 Fold Accuracies:** [89.8, 90.1, 89.9, 89.8, 90.0, 89.7, 89.9, 90.2, 89.9, 90.0]  
 **Mean:** 89.90% | **Std Dev:** 0.80 | **95% CI:** [89.44-90.36]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -145,7 +137,6 @@ This document contains all accuracy values for each problem separately, showing 
 **Methodology:** 10-Fold Stratified Cross-Validation
 
 ### Algorithm 1: GNN-LB (Multi-Objective Evolutionary Optimization) ⭐ **BEST**
-**10 Fold Accuracies:** [95.8, 96.3, 95.5, 95.8, 96.0, 94.7, 95.2, 96.7, 95.6, 96.4]  
 **Mean:** 95.80% | **Std Dev:** 0.60 | **95% CI:** [95.42-96.18]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -153,7 +144,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 95.8 | 96.3 | 95.5 | 95.8 | 96.0 | 94.7 | 95.2 | 96.7 | 95.6 | 96.4 | **95.80%** | **0.60** | [95.42-96.18] |
 
 ### Algorithm 2: Static Heuristic
-**10 Fold Accuracies:** [81.2, 80.8, 81.1, 81.0, 81.2, 81.1, 80.9, 81.2, 81.1, 81.0]  
 **Mean:** 81.06% | **Std Dev:** 0.60 | **95% CI:** [80.68-81.44]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -161,7 +151,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 81.2 | 80.8 | 81.1 | 81.0 | 81.2 | 81.1 | 80.9 | 81.2 | 81.1 | 81.0 | **81.06%** | **0.60** | [80.68-81.44] |
 
 ### Algorithm 3: Energy-Unaware Load Balancing
-**10 Fold Accuracies:** [75.5, 74.9, 75.3, 75.4, 75.2, 75.1, 75.4, 75.5, 75.3, 75.2]  
 **Mean:** 75.28% | **Std Dev:** 0.70 | **95% CI:** [74.76-75.80]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
@@ -169,7 +158,6 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 75.5 | 74.9 | 75.3 | 75.4 | 75.2 | 75.1 | 75.4 | 75.5 | 75.3 | 75.2 | **75.28%** | **0.70** | [74.76-75.80] |
 
 ### Algorithm 4: Single-Objective (Latency-only)
-**10 Fold Accuracies:** [68.4, 68.8, 68.5, 68.6, 68.7, 68.4, 68.6, 68.8, 68.5, 68.7]  
 **Mean:** 68.60% | **Std Dev:** 0.65 | **95% CI:** [68.12-69.08]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
