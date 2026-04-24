@@ -196,7 +196,7 @@ All improvements are **highly statistically significant** (p < 0.001):
 ## Key Insights
 
 1. **Advanced Methods Dominate**: AI/ML-based approaches (BFL-LB, GNN-LB) significantly outperform traditional heuristics
-2. **Consistency is Critical**: GNN-LB's low standard deviation (0.60%) shows it's the most reliable across different scenarios
+2. **Consistency is Critical**: GNN-LB's low standard deviation (0.6) shows it's the most reliable across different scenarios
 3. **Specialized Approaches Win**: Problem-specific optimizations (federated learning, graph neural networks) achieve superior results
 4. **Baseline Performance**: Simple heuristics and single-objective optimization lag significantly behind multi-objective approaches
 5. **Scalability**: Methods work well across different problem sizes and dataset characteristics
