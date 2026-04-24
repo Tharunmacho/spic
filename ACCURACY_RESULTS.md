@@ -1,19 +1,7 @@
 # Load Balancing Algorithms - Accuracy Results
 
 ## Overview
-This document contains all accuracy values for each problem separately, showing the performance of all 4 algor### Best Algorithms Per Problem
-| Problem | Best Algorithm | Accuracy | Std Dev | Improvement |
-|---------|---|---|---|---|
-| Problem 1 | Static Heuristic | **20.4%** | 3.6 | - |
-| Problem 2 | BFL-LB | **95.8%** | 0.6 | +75.40% vs Centralized |
-| Problem 3 | GNN-LB | **95.8%** | 0.6 | +24.40% vs Topology-Agnostic |
-| Problem 4 | GNN-LB | **95.8%** | 0.6 | +27.20% vs Single-Objective |
-
-### Overall Best Performers
-🏆 **Tied for Best:** BFL-LB and GNN-LB (both achieve 95.8% mean accuracy)
-- **Consistency Leader:** GNN-LB (Std Dev: 0.6 - appears in 2 problems as best)
-- **Stability:** Low standard deviation (0.6) indicates highly reliable performance
-- **Scalability:** Consistent performance across different datasets10-fold stratified cross-validation.
+This document contains all accuracy values for each problem separately, showing the performance of all 4 algorithms across 10-fold stratified cross-validation.
 
 ---
 
@@ -166,7 +154,7 @@ This document contains all accuracy values for each problem separately, showing 
 | Accuracy (%) | 75.5 | 74.9 | 75.3 | 75.4 | 75.2 | 75.1 | 75.4 | 75.5 | 75.3 | 75.2 | **75.3%** | **0.7** | [74.76-75.80] |
 
 ### Algorithm 4: Single-Objective (Latency-only)
-**Mean:** 68.60% | **Std Dev:** 0.65 | **95% CI:** [68.12-69.08]
+**Mean:** 68.6% | **Std Dev:** 0.65 | **95% CI:** [68.12-69.08]
 
 | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean | Std Dev | 95% CI |
 |------|---|---|---|---|---|---|---|---|---|----|------|---------|---------|
